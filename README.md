@@ -6,11 +6,10 @@ This project performs real-time emotion analysis using a live camera feed. It us
 
 ```plaintext
 emotion_detection/
-│
 ├── data/
 │   └── fer2013.csv            # FER-2013 dataset
 ├── models/
-│   └── emotion_detection_model.h5  # Saved trained model
+│   └── facial_emotion_detection_model.h5  # Saved trained model
 ├── notebooks/
 │   └── emotion_detection.ipynb  # Jupyter notebook with all code
 ├── scripts/
