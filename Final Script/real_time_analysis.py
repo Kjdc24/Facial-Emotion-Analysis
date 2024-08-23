@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
 
 # Load the saved model
-model = load_model('../Models/emotion_detection_model.h5')
+model = load_model('../Models/facial_emotion_detection_model.h5')
 
 # Define emotion labels
 emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
